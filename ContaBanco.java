@@ -8,7 +8,7 @@ public class ContaBanco {
     private float saldo;
     private boolean status;
 
-    // Construtor Real (Sem o 'void')
+    // Construtor corrigido (sem void)
     public ContaBanco() {
         this.setSaldo(0); 
         this.setStatus(false);
@@ -83,7 +83,7 @@ public class ContaBanco {
         }
     }
 
-    // Métodos Especiais (Getters e Setters)
+    // Métodos Especiais
     public int getNumConta() {
         return numConta;
     }
